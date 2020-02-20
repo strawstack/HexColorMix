@@ -1,0 +1,36 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background: #555;
+}
+.page-area {
+    height: 100%;
+    position: relative;
+}
+.beaker-container {
+    width: 200px;
+    position: absolute;
+}
+.beaker-click-zone {
+    position: absolute;
+    height: 125px;
+    width: 115px;
+    top: 140px;
+    left: 40px;
+
+    background: green;
+    opacity: 0.3;
+}
+.beaker-liquid-zone {
+    position: absolute;
+    height: 42px;
+    width: 68px;
+    top: 210px;
+    left: 64px;
+    background: purple;
+    opacity: 0.5;
+}
+.beaker-container>object {
+    width: 100%;
+}

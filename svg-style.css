@@ -1,0 +1,58 @@
+@keyframes tip {
+  0% {
+      transform: rotate(0deg);
+  }
+  30% {
+      transform: rotate(75deg);
+  }
+  70% {
+      transform: rotate(75deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+@keyframes drop {
+  0% {
+      width: 0px;
+      height: 6px;
+      y: 110px;
+  }
+  5% {
+      width: 7px;
+      height: 6px;
+      y: 110px;
+  }
+  45% {
+      width: 7px;
+      height: 150px;
+      y: 110px;
+  }
+  55% {
+      width: 7px;
+      height: 150px;
+      y: 110px;
+  }
+  100% {
+      height: 0px;
+      width: 7px;
+      y: 260px;
+  }
+}
+
+#jarEdge, #measureTicks, #liquidClipArea {
+    animation: xtip;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    transform-origin: 100px 100px;
+}
+#liquidDrop {
+    animation: xdrop;
+    animation-delay: 0.9s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    width: 0px;
+    height: 6px;
+}
