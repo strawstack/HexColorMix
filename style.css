@@ -45,3 +45,12 @@ html, body {
 .beaker-container>object {
     width: 100%;
 }
+.instructions {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #777;
+    font-size: 3em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
