@@ -69,9 +69,9 @@ function main() {
     bks[2].ref().style.left = "300px";
 
     let black = [];
-    for (let i=0; i < 9; i++) {
+    for (let i=0; i < 3; i++) {
         let b = new Beaker("#000000")
-        b.ref().style.left = "150px";
+        b.ref().style.left = i * 150 + "px";
         b.ref().style.top = "150px";
         black.push(b);
         pageArea.appendChild(b.ref());
