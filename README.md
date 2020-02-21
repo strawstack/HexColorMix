@@ -1,8 +1,23 @@
 # HexColorMixer
 
-- [ ] Implement draggability
-- [ ] Shift click to pour (by dynamic assignment of classname)
-- [ ] Liquid detects when interaction occurs
-- [ ] Prevent drag while pouring in progress
-- [ ] Red, Green, Blue liquids plus one empty
+Mix hex colors the way you can in reality, but don't because paint is too expensive :)
+
+
+# Controls
+
+Click and hold to drag. Shift + Click to Pour. 
+
+# Demo
+
+[Live demo](#)
+
+# Screenshot
+
+[![](./screenshot.png)](#)
+
+# Notes
+
 - [ ] Ability to create new beaker with custom color, default empty
+- [ ] Liquid wobble on drag
+- [ ] Black beakers should be empty
+- [ ] Beaker fill animation
