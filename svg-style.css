@@ -40,15 +40,20 @@
   }
 }
 
-#jarEdge, #measureTicks, #liquidClipArea {
-    animation: xtip;
+/* #jarEdge, #measureTicks, #liquidClipArea */
+.tip {
+    animation: tip;
     animation-duration: 3.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     transform-origin: 100px 100px;
 }
+/* #liquidDrop */
 #liquidDrop {
-    animation: xdrop;
+    width: 0px;
+}
+.drop {
+    animation: drop;
     animation-delay: 0.9s;
     animation-duration: 2s;
     animation-timing-function: linear;

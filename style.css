@@ -8,19 +8,27 @@ html, body {
     height: 100%;
     position: relative;
 }
+.beaker-container, .beaker-liquid-zone, svg {
+    pointer-events: none;
+}
 .beaker-container {
     width: 200px;
     position: absolute;
+    left: 0px;
+    top: 0px;
 }
 .beaker-click-zone {
+    pointer-events: all;
     position: absolute;
     height: 125px;
     width: 115px;
     top: 140px;
     left: 40px;
+    cursor: pointer;
 
+    /*
     background: green;
-    opacity: 0.3;
+    opacity: 0.3; */
 }
 .beaker-liquid-zone {
     position: absolute;
@@ -28,8 +36,11 @@ html, body {
     width: 68px;
     top: 210px;
     left: 64px;
+    pointer-events: none;
+
+    /*
     background: purple;
-    opacity: 0.5;
+    opacity: 0.5; */
 }
 .beaker-container>object {
     width: 100%;
