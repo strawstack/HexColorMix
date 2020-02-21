@@ -1,7 +1,6 @@
 # HexColorMixer
 
-Mix hex colors the way you can in reality, but don't because paint is too expensive :)
-
+Mix hex colors like you can in reality but don't because paint is expensive ;)
 
 # Controls
 
