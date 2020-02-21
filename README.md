@@ -9,11 +9,11 @@ Click and hold to drag. Shift + Click to Pour.
 
 # Demo
 
-[Live demo](#)
+[Live demo](https://regularmemory.blog/HexColorMix/)
 
 # Screenshot
 
-[![](./screenshot.png)](#)
+[![](./screenshot.png)](https://regularmemory.blog/HexColorMix/)
 
 # Notes
 
