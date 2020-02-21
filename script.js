@@ -55,11 +55,27 @@ function pxToInt(px) {
 function main() {
     let pageArea = document.querySelector(".page-area");
 
-    let beaker = new Beaker("#FF0000");
-    pageArea.appendChild(beaker.ref());
+    let bks = [
+        new Beaker("#FF0000"),
+        new Beaker("#00FF00"),
+        new Beaker("#0000FF")
+    ];
 
-    let beaker2 = new Beaker("#00FF00");
-    pageArea.appendChild(beaker2.ref());
+    for (let b of bks) {
+        pageArea.appendChild(b.ref());
+    }
+
+    bks[1].ref().style.left = "150px";
+    bks[2].ref().style.left = "300px";
+
+    let black = [];
+    for (let i=0; i < 9; i++) {
+        let b = new Beaker("#000000")
+        b.ref().style.left = "150px";
+        b.ref().style.top = "150px";
+        black.push(b);
+        pageArea.appendChild(b.ref());
+    }
 
     // Move target on mouse move
     window.addEventListener("mousemove", e => {

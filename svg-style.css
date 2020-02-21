@@ -61,3 +61,8 @@
     width: 0px;
     height: 6px;
 }
+#liquid {
+    transition: fill;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
