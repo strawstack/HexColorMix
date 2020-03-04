@@ -10,7 +10,7 @@ Click and hold to drag. Shift + Click to Pour.
 
 [Live demo](https://regularmemory.blog/HexColorMix/)
 
-# GIF
+# Example GIF
 
 [![](./example.gif)](https://regularmemory.blog/HexColorMix/)
 
