@@ -10,9 +10,9 @@ Click and hold to drag. Shift + Click to Pour.
 
 [Live demo](https://regularmemory.blog/HexColorMix/)
 
-# Screenshot
+# GIF
 
-[![](./screenshot.png)](https://regularmemory.blog/HexColorMix/)
+[![](./example.gif)](https://regularmemory.blog/HexColorMix/)
 
 # Notes
 
