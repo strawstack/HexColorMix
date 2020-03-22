@@ -6,9 +6,9 @@ Mix hex colors like you can in reality but don't because paint is expensive ;)
 
 Click and hold to drag. Shift + Click to Pour. 
 
-# Demo
+# Live Demo
 
-[Live demo](https://regularmemory.blog/HexColorMix/)
+[View Live demo](https://regularmemory.blog/HexColorMix/)
 
 # Example GIF
 
