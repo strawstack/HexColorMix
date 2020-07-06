@@ -8,11 +8,11 @@ Click and hold to drag. Shift + Click to Pour.
 
 # Live Demo
 
-[View Live demo](https://regularmemory.blog/HexColorMix/)
+[View Live demo](https://strawstack.github.io/HexColorMix/)
 
 # Example GIF
 
-[![](./example.gif)](https://regularmemory.blog/HexColorMix/)
+[![](./example.gif)](https://strawstack.github.io/HexColorMix/)
 
 # Notes
 
